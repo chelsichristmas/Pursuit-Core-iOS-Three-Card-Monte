@@ -20,10 +20,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func FlipCard(_ sender: UIButton) {
-        
-        
+        //TODO: Show the other side of the card. So I need it to randomly assign an image to each card (an array of images?) And if the player picks the card(button) that has been assigned the King Card it lets them know they won, else they lost.
+        sender.setBackgroundImage(UIImage(named: "KingCard"), for: .normal)
     }
-    //TODO; Show the other side of the card
+    
     
     
 }
