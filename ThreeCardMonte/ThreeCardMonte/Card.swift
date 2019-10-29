@@ -14,12 +14,16 @@ struct Card {
     var deck: [Card]
     var backOfCard: UIImage
     
-    // methods
-    // Need to give each button a value for the facen (from the King and 3 cards given)
-    // Need to randomize the value of the cards each time
-    func flipCard() {
-        // I want this method to show what the card loooks like on the front
-    }
+//    static func flipCard() -> UIImage {
+//        // TODO: When the button is clicked I want it to show the back of the card
+//        
+//        return backOfCard
+//        }
+//        
+        // methods
+        // Need to give each button a value for the facen (from the King and 3 cards given)
+        // Need to randomize the value of the cards each time
+    
     
     
 }
